@@ -1,0 +1,63 @@
+DESCRIPTION
+-----------
+
+This file is part of the SocialBM0311 dataset, available at:
+
+http://www.zubiaga.org/resources/socialbm0311/
+
+This is a large-scale social tagging dataset collected from Delicious.com. It contains the complete bookmarking
+activity for almost 2 million users from the beginning of the social bookmarking website in 2003 to the end of March 2011.
+The dataset contains, specifically: 
+
+* 339,897,227 bookmarks
+* 118,520,382 unique URLs
+* 14,723,731 unique tags
+* 1,951,207 users
+
+The files contain one bookmark per line, with the following fields separated by tabs:
+
+url_md5	user_id	url unix_timestamp tags
+
+where:
+* 'url_md5' is the MD5 hash of the bookmarked URL. Note that Delicious uses the MD5 hash as the ID for URLs, and can be used
+  to find it through http://www.delicious.com/url/url_md5
+* 'user_id' is the ID for the user who saved the bookmark. The usernames have been fully anonymized for this dataset, and the user IDs
+  provided with the dataset have been randomly assigned to users.
+* 'url' is the URL being bookmarked.
+* 'unix_timestamp' refers to the date in which the bookmark was saved, using the standard UNIX time format. Note that these timestamps
+  are limited to days, and do not provide the specific time (limited by the system during data collection).
+* 'tags' include a tab-separated list of the tags (keywords) used in the bookmark.
+
+For further details about the dataset and/or contact information, please refer to the URL above.
+
+LEGAL INFORMATION
+-----------------
+
+By downloading and using this dataset you acknowledge that:
+* The data has been compiled to exclusively use it for scientific research purposes.
+* The copyright holders retain ownership and reserve all rights.
+
+REFERENCE
+---------
+
+Please, cite the following paper if you make use of this dataset for your research:
+
+Arkaitz Zubiaga, Victor Fresno, Raquel Martinez, Alberto Perez Garcia-Plaza,
+Harnessing Folksonomies to Produce a Social Classification of Resources,
+IEEE Transactions on Knowledge and Data Engineering, vol. 25, no. 8, pp. 1801-1813, Aug. 2013, doi:10.1109/TKDE.2012.115
+
+BiBTeX:
+
+@article{10.1109/TKDE.2012.115,
+  author = {Arkaitz Zubiaga and Victor Fresno and Raquel Martinez and Alberto Perez Garcia-Plaza},
+  title = {Harnessing Folksonomies to Produce a Social Classification of Resources},
+  journal ={IEEE Transactions on Knowledge and Data Engineering},
+  volume = {25},
+  number = {8},
+  issn = {1041-4347},
+  year = {2013},
+  pages = {1801-1813},
+  doi = {http://doi.ieeecomputersociety.org/10.1109/TKDE.2012.115},
+  publisher = {IEEE Computer Society},
+  address = {Los Alamitos, CA, USA},
+}
