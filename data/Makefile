@@ -1,4 +1,4 @@
-.PHONY: tags filter-tags filter-rows
+.PHONY: tags filter-tags filter-rows copy-results
 
 # takes a long time
 tags: 1_tags.py
@@ -10,3 +10,6 @@ filter-tags: 3_filter.sh 2_tags_desc.tsv
 
 filter-rows: 6_filter_rows.py 5_manually_filtered_tags.txt
 	uv run 6_filter_rows.py data/socialbm0311.tsv 5_manually_filtered_tags.txt 7_filtered_rows.tsv
+
+copy-results: 7_filtered_rows.tsv
+	cp 7_filtered_rows.tsv ../dataset.tsv

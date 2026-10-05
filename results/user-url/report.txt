@@ -1,0 +1,108 @@
+Graph mode: user-url (directed)
+Read 173,954 bookmarks -> 173,766 distinct user-URL edges
+
+=== BASIC SIZE ===
+Number of vertices: 111,076
+Number of edges:    173,766
+Density: 1.40841e-05
+  users: 25,570   URLs: 85,506
+  bipartite density m/(|users|*|URLs|): 7.94763e-05
+
+=== DEGREE DISTRIBUTION ===
+  out-degree of users (distinct URLs bookmarked): n=25,570  min=1  max=1239  mean=6.796  median=2
+  in-degree of URLs (distinct users bookmarking): n=85,506  min=1  max=1350  mean=2.032  median=1
+
+=== CONNECTED COMPONENTS ===
+Number of weakly connected components: 4,083
+Largest component: 100,715 nodes (90.67% of all nodes)
+Top 10 component sizes: [100715, 187, 78, 52, 38, 30, 28, 27, 25, 24]
+  component size: n=4,083  min=2  max=1.007e+05  mean=27.2  median=2
+Isolated nodes (size 1): 0
+Number of strongly connected components: 111,076 (largest: 1)
+
+=== CLUSTERING COEFFICIENT ===
+Classical (triangle-based) clustering: 0 by definition (bipartite graph has no triangles).
+Bipartite (Latapy) clustering, users: 0.144376  (sample of 1,000 nodes)
+Bipartite (Latapy) clustering, URLs: 0.483838  (sample of 1,000 nodes)
+
+=== DIAMETER ===
+Diameter of the largest component (100,715 nodes): >= 16 (lower bound from 1,000 sampled BFS sources)
+
+=== CENTRALITY INDICES ===
+  Top 10 by in-degree centrality (most bookmarked URLs):
+    0.012154	url:69d17344819b05b7bfaaace3f40f73bf  http://www.theppk.com/
+    0.00880486	url:4fcdac8abfceb2be96c802777a7affef  http://veganyumyum.com/
+    0.00797659	url:7c44ec7e6dd3db57ac94b1bfd3d16952  http://vegweb.com/
+    0.00729237	url:9e13730b1fc95d14ef0a70f33c3c89ba  http://veganlunchbox.blogspot.com/
+    0.00710331	url:1be2f578e00ff49a455abdeffb3f5aa6  http://blog.fatfreevegan.com/
+    0.00635607	url:24f5fe743d3b07e250bdc6f98f62791b  http://www.fatfreevegan.com/
+    0.00388026	url:164881d70d91a34652f1f414d8868b39  http://www.veganessentials.com/
+    0.00361918	url:3f9e743c52c0382b4857d74e64729f97  http://www.vegcooking.com/
+    0.00335809	url:3c2e847f3832c958b303f5d580164db8  http://veganmenu.blogspot.com/
+    0.00334009	url:73790bf1d219ffc861c3f34fba253ebf  http://www.veganchef.com/
+  Top 10 by out-degree centrality (most active users):
+    0.0111546	user:1814385
+    0.0100383	user:1773789
+    0.00930903	user:1783764
+    0.00903894	user:510374
+    0.00877785	user:264145
+    0.00839073	user:191796
+    0.00668917	user:1312680
+    0.0058429	user:1328426
+    0.0055368	user:456726
+    0.00532073	user:69427
+  Top 10 by PageRank:
+    0.00288247	url:69d17344819b05b7bfaaace3f40f73bf  http://www.theppk.com/
+    0.00209819	url:4fcdac8abfceb2be96c802777a7affef  http://veganyumyum.com/
+    0.00172484	url:9e13730b1fc95d14ef0a70f33c3c89ba  http://veganlunchbox.blogspot.com/
+    0.00168027	url:7c44ec7e6dd3db57ac94b1bfd3d16952  http://vegweb.com/
+    0.00148537	url:24f5fe743d3b07e250bdc6f98f62791b  http://www.fatfreevegan.com/
+    0.00146185	url:1be2f578e00ff49a455abdeffb3f5aa6  http://blog.fatfreevegan.com/
+    0.000856331	url:3f9e743c52c0382b4857d74e64729f97  http://www.vegcooking.com/
+    0.000579756	url:3c2e847f3832c958b303f5d580164db8  http://veganmenu.blogspot.com/
+    0.000525067	url:164881d70d91a34652f1f414d8868b39  http://www.veganessentials.com/
+    0.00050545	url:094b8e35411c9bbd7f702a4307410092  http://voraciouseats.com/2010/11/19/a-vegan-no-more/
+  Top 10 by eigenvector centrality (largest component):
+    1	url:69d17344819b05b7bfaaace3f40f73bf  http://www.theppk.com/
+    0.61604	url:4fcdac8abfceb2be96c802777a7affef  http://veganyumyum.com/
+    0.534854	url:7c44ec7e6dd3db57ac94b1bfd3d16952  http://vegweb.com/
+    0.518056	url:1be2f578e00ff49a455abdeffb3f5aa6  http://blog.fatfreevegan.com/
+    0.497799	url:9e13730b1fc95d14ef0a70f33c3c89ba  http://veganlunchbox.blogspot.com/
+    0.400973	url:24f5fe743d3b07e250bdc6f98f62791b  http://www.fatfreevegan.com/
+    0.269971	url:164881d70d91a34652f1f414d8868b39  http://www.veganessentials.com/
+    0.256585	url:3c2e847f3832c958b303f5d580164db8  http://veganmenu.blogspot.com/
+    0.25432	url:73790bf1d219ffc861c3f34fba253ebf  http://www.veganchef.com/
+    0.229276	url:3f9e743c52c0382b4857d74e64729f97  http://www.vegcooking.com/
+  Top 10 by closeness centrality (among top-1000 degree nodes):
+    0.283125	user:1669717
+    0.280688	user:940650
+    0.278557	url:69d17344819b05b7bfaaace3f40f73bf  http://www.theppk.com/
+    0.275064	user:1461752
+    0.274734	user:69427
+    0.274424	url:4fcdac8abfceb2be96c802777a7affef  http://veganyumyum.com/
+    0.273772	user:1153112
+    0.273606	user:510374
+    0.273523	user:1814385
+    0.273289	url:1be2f578e00ff49a455abdeffb3f5aa6  http://blog.fatfreevegan.com/
+  Top 10 by betweenness centrality (paths up to length 4):
+    8.52884e+07	url:69d17344819b05b7bfaaace3f40f73bf  http://www.theppk.com/
+    5.75662e+07	user:1814385
+    5.62755e+07	url:4fcdac8abfceb2be96c802777a7affef  http://veganyumyum.com/
+    5.18625e+07	user:510374
+    5.03476e+07	url:1be2f578e00ff49a455abdeffb3f5aa6  http://blog.fatfreevegan.com/
+    4.71867e+07	url:7c44ec7e6dd3db57ac94b1bfd3d16952  http://vegweb.com/
+    4.55134e+07	url:9e13730b1fc95d14ef0a70f33c3c89ba  http://veganlunchbox.blogspot.com/
+    3.99778e+07	user:191796
+    3.87791e+07	user:1773789
+    3.34227e+07	user:1783764
+
+=== NOTES (skipped / adapted metrics) ===
+1. Density is reported both in the standard form (m/(n(n-1)) for a directed graph) and in the bipartite form; the standard form is tiny by construction.
+2. In a user->URL graph users have in-degree 0 and URLs have out-degree 0, so out-degree is summarised over users only and in-degree over URLs only.
+3. Strongly connected components are trivial in a user->URL graph (no directed cycles), so every node is its own SCC; weak components are the meaningful ones.
+4. Standard clustering coefficient is 0 for a bipartite graph; the Latapy bipartite clustering coefficient is reported instead, on a random node sample for speed (--samples).
+5. Diameter is a lower bound (sampled eccentricities) because the largest component exceeds --exact-limit.
+6. Diameter is computed on the undirected version of the largest weakly connected component; the directed diameter of a user->URL graph is trivially 1 (paths have length 1) and most pairs are unreachable.
+7. Closeness was computed only for the highest-degree nodes of the largest component (exact all-pairs closeness is too expensive at this size).
+8. Betweenness was approximated by only counting shortest paths of length <= 4 (--bc-cutoff).
+9. Closeness, betweenness and eigenvector centrality are computed on the undirected view of the largest component; degree centrality and PageRank use the full graph.
