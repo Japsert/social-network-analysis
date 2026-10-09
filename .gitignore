@@ -1,10 +1,1 @@
-.DS_Store
-.venv/
-
-# python files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.ipynb_checkpoints/
+data/*.csv
