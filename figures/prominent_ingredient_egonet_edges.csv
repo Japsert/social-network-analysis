@@ -1,0 +1,31 @@
+ego_ingredient,alter_ingredient,recipes_containing_both
+salt,butter,25589
+salt,sugar,22708
+salt,eggs,18124
+salt,pepper,17585
+salt,onion,16647
+salt,flour,16422
+salt,water,15440
+salt,olive oil,13330
+salt,baking powder,13241
+salt,milk,12891
+butter,salt,25589
+butter,sugar,15060
+butter,eggs,14207
+butter,flour,13855
+butter,milk,11708
+butter,onion,8109
+butter,all-purpose flour,7878
+butter,baking powder,7753
+butter,brown sugar,7452
+butter,water,6863
+sugar,salt,22708
+sugar,butter,15060
+sugar,eggs,12993
+sugar,flour,11149
+sugar,baking powder,9377
+sugar,water,8990
+sugar,milk,8360
+sugar,vanilla,7513
+sugar,baking soda,7292
+sugar,all-purpose flour,6485

@@ -1,0 +1,34 @@
+ego_ingredient,ingredient,node_type,recipe_count
+salt,salt,ego_ingredient,85746
+salt,butter,coingredient_alter,54975
+salt,sugar,coingredient_alter,44535
+salt,eggs,coingredient_alter,33761
+salt,pepper,coingredient_alter,22319
+salt,onion,coingredient_alter,39065
+salt,flour,coingredient_alter,26266
+salt,water,coingredient_alter,34914
+salt,olive oil,coingredient_alter,32822
+salt,baking powder,coingredient_alter,17504
+salt,milk,coingredient_alter,25786
+butter,butter,ego_ingredient,54975
+butter,salt,coingredient_alter,85746
+butter,sugar,coingredient_alter,44535
+butter,eggs,coingredient_alter,33761
+butter,flour,coingredient_alter,26266
+butter,milk,coingredient_alter,25786
+butter,onion,coingredient_alter,39065
+butter,all-purpose flour,coingredient_alter,17659
+butter,baking powder,coingredient_alter,17504
+butter,brown sugar,coingredient_alter,18655
+butter,water,coingredient_alter,34914
+sugar,sugar,ego_ingredient,44535
+sugar,salt,coingredient_alter,85746
+sugar,butter,coingredient_alter,54975
+sugar,eggs,coingredient_alter,33761
+sugar,flour,coingredient_alter,26266
+sugar,baking powder,coingredient_alter,17504
+sugar,water,coingredient_alter,34914
+sugar,milk,coingredient_alter,25786
+sugar,vanilla,coingredient_alter,13315
+sugar,baking soda,coingredient_alter,14099
+sugar,all-purpose flour,coingredient_alter,17659
